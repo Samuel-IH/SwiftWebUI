@@ -7,6 +7,6 @@ public struct Shadow: Hashable {
 extension Shadow: CSSStyleValue {
 
     public var cssStringValue: String {
-        return "\(radius.cssStringValue) \(x.cssStringValue) \(y.cssStringValue) \(color.cssStringValue)"
+        return "\(x.cssStringValue) \(y.cssStringValue) \(radius.cssStringValue) \(color.cssStringValue)"
     }
 }
